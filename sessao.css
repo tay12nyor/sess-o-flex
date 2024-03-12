@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { /* Chamamos nossa Tag a (Que está dentro do Header para estilização */
+    text-decoration: none; /*Desabilitar o sublinhado em baixo do texto em questão*/
+    color: white; /* Alterando a cor do texto em questão para Branco  */
+}
+
+.header > i {
+    font-size: 100px;
+    color: aqua;
+}
+
+.header {   /* Aqui estamos chamando nossa Class do Cabeçalho para estilização */
+    display: flex; /* Responsável por alinhar os itens um ao lado do outro dentro do header */
+    justify-content: space-between; /* Responsável por espaçar os itens (início e fim) */
+    padding: 60px; /* Preenchimento do nosso cabeçalho, ou seja o tamanho que ficará o Header */
+    align-items: center; /* Alinhar os itens ao centro */
+    flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adaptar a telas menores */
+    background-color: rgb(9, 9, 9); /* Alteramos a cor de fundo nosso Cabeçalho */
+   
+}
+
+
+
+.menu { /* Aqui chamamos nossa class que está dentro da Lista ñ ordenada para estilização */
+    display: flex; /* Usamos para habilitar os itens da lista um ao lado do outro */
+}
+
+
+
+.menu > li { /*Chamamos diretamenta nossas LI para estilização mais específica  */ 
+    margin-left: 10px; /* Espaçamento entre elas */
+}
+
+
+
+.menu > li > a { /* Aqui chamamos os nomes que estão dentro da LI ou seja tag "a" para estilização */
+    display: block;  /*  */
+    padding: 10px; /* Espaçamento dentro da caixa */
+    background: rgb(103, 184, 235); /* Cor da caixa */
+    color: white; /*Cor da letra */
+}
+
+
+
+
+h1 { /* Título usado pós o Header */
+    text-align: center; /* Alinhamos ao centro */
+    margin-top: 100px; /* Espeçamento na margem superior */
+}
+
+img { /*  */
+    max-width: 100%; /* Adaptação máxima da imagem na página */
+    display: block; /*  */
+}
+
+.flex { /* Aqui chamamos nossa tag onde estão armazenadas as imagens para estilização */
+    display: flex; /* Aqui colocamos as imagens uma ao lado da outra */
+    flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adaptar a telas menores */
+    max-width: 800px; /* Adaptação máxima da imagem na página */
+    margin: 0 auto; /* Margens ao redor das imagens deixando as imagens alinhadas ao centro */
+    margin-bottom: 80px; /* Adicionamos espaçamento inferior no bloco das imagens  */
+    text-align: center;
+}
+
+.flex > div { /*  */
+    flex: 1 1 200px; /*  */
+    margin: 10px; /* Espaçamento das margens laterais, superior e inferior */
+}
+
+
+.grid { /* Class que usamos para a Section de informação */
+    background-color: rgb(73, 188, 188); /* Colocamos aqui uma cor de fundo */
+    padding: 100px; /* O Preenchimento da sessão  */
+    color: white; /* Cor da letra */
+}
+
+
+
+
+/* AQUI IREMOS ESTILIZAR NOSSO RODAPÉ */
+
+
+.rodape {
+    display: flex; /* Responsável por alinhar os itens um ao lado do outro dentro do header */
+    justify-content: space-evenly; /* Responsável por espaçar os itens (início e fim) */
+    padding: 60px; /* Preenchimento do nosso cabeçalho, ou seja o tamanho que ficará o Header */
+    align-items: center; /* Alinhar os itens ao centro */
+    flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adaptar a telas menores */
+    background-color: rgb(6, 6, 6); /* Cor de fundo*/
+}
+
+.rodape > a:hover{ /* Chamamos nossa Tag "a" para modificação com ao passar o mouse */
+   color: yellow; /* cor que a letra ficará */
+   transition: 0.8s; /* O tempo que irá ocorrer a ação */
+}
+
+.rodape > a { /* Chamamos aqui nossa Tag "a" para modificação padrão */
+    color: white; /*Definimos uma cor padrão */
+    margin-right: 10px; /* Atribuimos um espaçamento a direita*/
+}
+
+
+.menu-contatos > li > i { /* Aqui chamamos os nomes que estão dentro da LI ou seja tag "a" para estilização */
+    margin-left: 10px;
+    padding: 10px; /* Espaçamento dentro da caixa */
+    background: rgb(103, 184, 235); /* Cor da caixa */
+    
+}
+
+.menu-contatos {
+    display: flex;
+    margin-left: 50px;
+}
