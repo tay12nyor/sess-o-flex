@@ -13,7 +13,7 @@ a { /* Chamamos nossa Tag a (Que está dentro do Header para estilização */
 
 .header > i {
     font-size: 100px;
-    color: aqua;
+    color: rgb(9, 12, 12);
 }
 
 .header {   /* Aqui estamos chamando nossa Class do Cabeçalho para estilização */
